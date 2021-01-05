@@ -95,7 +95,7 @@ Duration: 20 minutes
 
 1. Select and open the `azure-pipelines.yml` file.
 
-2. Select **Edit** and update the following variables: `resourcegroup`, and `workspace`. If you are using your own Azure subscription, please provide names to use. If an environment is provided to you, be sure to replace XXXXX in the values below with your unique identifier. Typically, for the provided environment, the format for the resourcegroup is `tech_immersion_XXXXX` and for workspace is `tech_immersion_aml_XXXXX` where XXXXX is your unique identifier.
+2. Select **Edit** and update the following variables: `resourcegroup`, and `workspace`. If you are using your own Azure subscription, please provide names to use. If an environment is provided to you, be sure to replace XXXXX in the values below with your unique identifier. Typically, for the provided environment, the format for the resourcegroup is `ti-XXXXXX` and for workspace is `tech-immersion-aml-XXXXXX` where XXXXX is your unique identifier.
 
     ![Edit build YAML file and provide your resource group and workspace information.](media/devops-build-pipeline-01.png 'Edit Build YAML file')
 
